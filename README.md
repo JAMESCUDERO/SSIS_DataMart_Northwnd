@@ -72,7 +72,7 @@ Características del modelo:
 
 ---
 
-## 📌 Notas
+## Notas
 Este Data Mart fue desarrollado con fines **demostrativos y profesionales**, utilizando Northwind como dataset de referencia.  
 La arquitectura puede extenderse para:
 - Implementar SCD Tipo 2
