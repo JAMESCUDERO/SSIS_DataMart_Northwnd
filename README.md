@@ -63,18 +63,6 @@ Características del modelo:
 
 ---
 
-## Consideraciones de Ingeniería de Datos
-- Separación clara entre capas transaccionales y analíticas
-- Modelado orientado a lectura (read-optimized)
-- Transformaciones explícitas y documentadas
-- Control de integridad referencial
-- Estructura compatible con:
-  - Slowly Changing Dimensions (SCD)
-  - Incremental loads
-  - Escalado a mayores volúmenes de datos
-
----
-
 ## Stack Tecnológico
 - Base de datos relacional (SQL)
 - Procesos ETL (SSIS / SQL)
@@ -84,8 +72,12 @@ Características del modelo:
 
 ---
 
-## Estructura del Repositorio
-- `/ETL` → Procesos ETL (paquetes SSIS o scripts SQL)
-- `/BaseDatos` → Esquema y objetos del Data Mart
-- `/Documentacion` → Diseño y decisiones técnicas
-- `README.md` → Documentación del proyecto
+## 📌 Notas
+Este Data Mart fue desarrollado con fines **demostrativos y profesionales**, utilizando Northwind como dataset de referencia.  
+La arquitectura puede extenderse para:
+- Implementar SCD Tipo 2
+- Incorporar control de auditoría (metadata, logging)
+- Integrarse con herramientas de BI o capas semánticas
+- Migrar a entornos cloud o arquitecturas modernas
+
+---
