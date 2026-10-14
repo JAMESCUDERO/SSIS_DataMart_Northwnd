@@ -73,7 +73,7 @@ Características del modelo:
 ---
 
 ## Notas
-Este Data Mart fue desarrollado con fines **demostrativos y profesionales**, utilizando Northwind como dataset de referencia.  
+Este Data Mart fue desarrollado con fines **demostrativos y profesionales**, utilizando Northwind como dataset de referencia. **Northwind es una base de ejemplo pública de Microsoft: este repositorio no contiene datos reales de ninguna organización.**  
 La arquitectura puede extenderse para:
 - Implementar SCD Tipo 2
 - Incorporar control de auditoría (metadata, logging)
